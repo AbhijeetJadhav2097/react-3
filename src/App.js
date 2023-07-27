@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import ChildComponent from './component/ChildComponent';
 import './App.css';
-
+import Count from './component/Count'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Count />
+      {/* <h1>Abhi</h1> */}
+      {/* <ChildComponent hobby='Dancing' />
+      <ChildComponent hobby='Reading Books' />
+      <ChildComponent hobby='Drawing' />
+      <ChildComponent hobby='Running' />
+      <ChildComponent hobby='sleeping' /> */}
     </div>
   );
 }
